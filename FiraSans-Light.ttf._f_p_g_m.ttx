@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <fpgm>
+    <assembly>
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      FDEF[ ]
+      NPUSHB[ ]  /* 14 values pushed */
+      5 6 7 13 6 9 20 14 19 11 18 8 17 16
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZP2[ ]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      RS[ ]
+      GC[0]
+      SUB[ ]
+      ABS[ ]
+      WS[ ]
+      RS[ ]
+      RCVT[ ]
+      WS[ ]
+      RS[ ]
+      RCVT[ ]
+      WS[ ]
+      RS[ ]
+      RCVT[ ]
+      WS[ ]
+      RS[ ]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      RS[ ]
+      GC[0]
+      SUB[ ]
+      ABS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      18
+      RS[ ]
+      SUB[ ]
+      ROUND[01]
+      WS[ ]
+      RS[ ]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      16
+      RS[ ]
+      GC[0]
+      SUB[ ]
+      ABS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      SUB[ ]
+      ROUND[01]
+      WS[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      LT[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      6 64
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      5 7
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      LT[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      7 64
+      WS[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      16 5 5 18
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      19
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      SUB[ ]
+      WS[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      17
+      RS[ ]
+      GT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      70
+      GT[ ]
+      AND[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      5 5 7 7
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      SUB[ ]
+      WS[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      SUB[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      16 5
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      17
+      RS[ ]
+      GT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      70
+      GT[ ]
+      AND[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      5 5 6 6
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      SUB[ ]
+      WS[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      SUB[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      9 5
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      17
+      RS[ ]
+      GT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      18
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      70
+      GT[ ]
+      AND[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      18 18
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      SUB[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      8 5
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      17
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      SUB[ ]
+      LT[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      6 64 6
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      13 15 12 10
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      18
+      RS[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 9
+      RS[ ]
+      SRP0[ ]
+      SZP1[ ]
+      SZP0[ ]
+      MSIRP[0]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      SRP0[ ]
+      MSIRP[0]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      RS[ ]
+      NEG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      16
+      RS[ ]
+      SRP0[ ]
+      MSIRP[0]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      RS[ ]
+      NEG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      15
+      RS[ ]
+      SRP0[ ]
+      MSIRP[0]
+      ENDF[ ]
+    </assembly>
+  </fpgm>
+
+</ttFont>

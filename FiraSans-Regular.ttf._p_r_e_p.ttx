@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <prep>
+    <assembly>
+      SVTCA[0]
+      PUSHB[ ]  /* 3 values pushed */
+      0 6 1
+      MPPEM[ ]
+      WS[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      61 0
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      LT[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      7 2 2 0
+      RS[ ]
+      RCVT[ ]
+      WS[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      LT[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      25 2 64
+      WS[ ]
+      JMPR[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      9 2
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      93
+      LT[ ]
+      JROF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      9 2 2
+      RS[ ]
+      ROUND[01]
+      WS[ ]
+      JMPR[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      2 10 2
+      RS[ ]
+      ADD[ ]
+      ROUND[01]
+      WS[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      -67
+      PUSHB[ ]  /* 4 values pushed */
+      0 1 0 0
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      RS[ ]
+      WCVTP[ ]
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      JMPR[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 64
+      SMD[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      28 0
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      LT[ ]
+      JROF[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      -34
+      PUSHB[ ]  /* 8 values pushed */
+      0 1 0 0 4 3 3 0
+      RS[ ]
+      RCVT[ ]
+      WS[ ]
+      RS[ ]
+      ROUND[01]
+      WS[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      WCVTP[ ]
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      JMPR[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      11520
+      SCVTCI[ ]
+    </assembly>
+  </prep>
+
+</ttFont>

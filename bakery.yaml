@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [FiraSans-Medium.ttf.ttx, FiraSans-Italic.ttf.ttx, FiraSans-MediumItalic.ttf.ttx,
+  FiraSans-LightItalic.ttf.ttx, FiraSans-BoldItalic.ttf.ttx, FiraSans-Bold.ttf.ttx,
+  FiraSans-Light.ttf.ttx, FiraSans-Regular.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

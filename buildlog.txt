@@ -1,0 +1,1486 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/firasans/METADATA.json /home/travis/build/fontdirectory/firasans/builds/build
+$ cp -a /home/travis/build/fontdirectory/firasans/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/firasans/builds/build
+$ cp -a FiraSans-Medium.ttf.ttx FiraSans-Italic.ttf.ttx FiraSans-MediumItalic.ttf.ttx FiraSans-LightItalic.ttf.ttx FiraSans-BoldItalic.ttf.ttx FiraSans-Bold.ttf.ttx FiraSans-Light.ttf.ttx FiraSans-Regular.ttf.ttx FiraSans-Medium.ttf.G_P_O_S_.ttx FiraSans-Medium.ttf._f_p_g_m.ttx FiraSans-Medium.ttf.GlyphOrder.ttx FiraSans-Medium.ttf.G_D_E_F_.ttx FiraSans-Medium.ttf._h_e_a_d.ttx FiraSans-Medium.ttf._c_v_t.ttx FiraSans-Medium.ttf._h_h_e_a.ttx FiraSans-Medium.ttf._l_o_c_a.ttx FiraSans-Medium.ttf._n_a_m_e.ttx FiraSans-Medium.ttf._h_m_t_x.ttx FiraSans-Medium.ttf.O_S_2f_2.ttx FiraSans-Medium.ttf._c_m_a_p.ttx FiraSans-Medium.ttf.G_S_U_B_.ttx FiraSans-Medium.ttf._m_a_x_p.ttx FiraSans-Medium.ttf._g_a_s_p.ttx FiraSans-Medium.ttf._p_r_e_p.ttx FiraSans-Medium.ttf._g_l_y_f.ttx FiraSans-Medium.ttf._p_o_s_t.ttx FiraSans-Italic.ttf.GlyphOrder.ttx FiraSans-Italic.ttf.G_D_E_F_.ttx FiraSans-Italic.ttf._p_r_e_p.ttx FiraSans-Italic.ttf._p_o_s_t.ttx FiraSans-Italic.ttf._f_p_g_m.ttx FiraSans-Italic.ttf._l_o_c_a.ttx FiraSans-Italic.ttf.G_P_O_S_.ttx FiraSans-Italic.ttf._h_m_t_x.ttx FiraSans-Italic.ttf.O_S_2f_2.ttx FiraSans-Italic.ttf._m_a_x_p.ttx FiraSans-Italic.ttf._g_a_s_p.ttx FiraSans-Italic.ttf._h_e_a_d.ttx FiraSans-Italic.ttf._n_a_m_e.ttx FiraSans-Italic.ttf._c_m_a_p.ttx FiraSans-Italic.ttf.G_S_U_B_.ttx FiraSans-Italic.ttf._h_h_e_a.ttx FiraSans-Italic.ttf._c_v_t.ttx FiraSans-Italic.ttf._g_l_y_f.ttx FiraSans-MediumItalic.ttf._m_a_x_p.ttx FiraSans-MediumItalic.ttf.GlyphOrder.ttx FiraSans-MediumItalic.ttf.O_S_2f_2.ttx FiraSans-MediumItalic.ttf._l_o_c_a.ttx FiraSans-MediumItalic.ttf._g_l_y_f.ttx FiraSans-MediumItalic.ttf.G_P_O_S_.ttx FiraSans-MediumItalic.ttf._c_m_a_p.ttx FiraSans-MediumItalic.ttf._f_p_g_m.ttx FiraSans-MediumItalic.ttf._n_a_m_e.ttx FiraSans-MediumItalic.ttf._c_v_t.ttx FiraSans-MediumItalic.ttf._p_o_s_t.ttx FiraSans-MediumItalic.ttf.G_D_E_F_.ttx FiraSans-MediumItalic.ttf._h_e_a_d.ttx FiraSans-MediumItalic.ttf._p_r_e_p.ttx FiraSans-MediumItalic.ttf._g_a_s_p.ttx FiraSans-MediumItalic.ttf._h_h_e_a.ttx FiraSans-MediumItalic.ttf.G_S_U_B_.ttx FiraSans-MediumItalic.ttf._h_m_t_x.ttx FiraSans-LightItalic.ttf._f_p_g_m.ttx FiraSans-LightItalic.ttf.G_D_E_F_.ttx FiraSans-LightItalic.ttf.GlyphOrder.ttx FiraSans-LightItalic.ttf._g_a_s_p.ttx FiraSans-LightItalic.ttf.O_S_2f_2.ttx FiraSans-LightItalic.ttf._h_h_e_a.ttx FiraSans-LightItalic.ttf._m_a_x_p.ttx FiraSans-LightItalic.ttf._c_v_t.ttx FiraSans-LightItalic.ttf._h_e_a_d.ttx FiraSans-LightItalic.ttf._p_r_e_p.ttx FiraSans-LightItalic.ttf._g_l_y_f.ttx FiraSans-LightItalic.ttf.G_P_O_S_.ttx FiraSans-LightItalic.ttf._l_o_c_a.ttx FiraSans-LightItalic.ttf._h_m_t_x.ttx FiraSans-LightItalic.ttf._p_o_s_t.ttx FiraSans-LightItalic.ttf._n_a_m_e.ttx FiraSans-LightItalic.ttf.G_S_U_B_.ttx FiraSans-LightItalic.ttf._c_m_a_p.ttx FiraSans-BoldItalic.ttf._m_a_x_p.ttx FiraSans-BoldItalic.ttf.GlyphOrder.ttx FiraSans-BoldItalic.ttf.G_S_U_B_.ttx FiraSans-BoldItalic.ttf._c_v_t.ttx FiraSans-BoldItalic.ttf._p_r_e_p.ttx FiraSans-BoldItalic.ttf._n_a_m_e.ttx FiraSans-BoldItalic.ttf._f_p_g_m.ttx FiraSans-BoldItalic.ttf._p_o_s_t.ttx FiraSans-BoldItalic.ttf.G_D_E_F_.ttx FiraSans-BoldItalic.ttf.G_P_O_S_.ttx FiraSans-BoldItalic.ttf._h_m_t_x.ttx FiraSans-BoldItalic.ttf._h_e_a_d.ttx FiraSans-BoldItalic.ttf._l_o_c_a.ttx FiraSans-BoldItalic.ttf._g_a_s_p.ttx FiraSans-BoldItalic.ttf._c_m_a_p.ttx FiraSans-BoldItalic.ttf._h_h_e_a.ttx FiraSans-BoldItalic.ttf._g_l_y_f.ttx FiraSans-BoldItalic.ttf.O_S_2f_2.ttx FiraSans-Bold.ttf.GlyphOrder.ttx FiraSans-Bold.ttf.G_P_O_S_.ttx FiraSans-Bold.ttf._m_a_x_p.ttx FiraSans-Bold.ttf._l_o_c_a.ttx FiraSans-Bold.ttf._p_o_s_t.ttx FiraSans-Bold.ttf._p_r_e_p.ttx FiraSans-Bold.ttf._c_m_a_p.ttx FiraSans-Bold.ttf.G_S_U_B_.ttx FiraSans-Bold.ttf._h_e_a_d.ttx FiraSans-Bold.ttf._g_a_s_p.ttx FiraSans-Bold.ttf._c_v_t.ttx FiraSans-Bold.ttf.G_D_E_F_.ttx FiraSans-Bold.ttf.O_S_2f_2.ttx FiraSans-Bold.ttf._h_m_t_x.ttx FiraSans-Bold.ttf._n_a_m_e.ttx FiraSans-Bold.ttf._h_h_e_a.ttx FiraSans-Bold.ttf._g_l_y_f.ttx FiraSans-Bold.ttf._f_p_g_m.ttx FiraSans-Light.ttf._m_a_x_p.ttx FiraSans-Light.ttf._c_v_t.ttx FiraSans-Light.ttf._h_e_a_d.ttx FiraSans-Light.ttf._p_o_s_t.ttx FiraSans-Light.ttf.G_D_E_F_.ttx FiraSans-Light.ttf.O_S_2f_2.ttx FiraSans-Light.ttf._g_l_y_f.ttx FiraSans-Light.ttf._h_m_t_x.ttx FiraSans-Light.ttf._n_a_m_e.ttx FiraSans-Light.ttf._p_r_e_p.ttx FiraSans-Light.ttf._g_a_s_p.ttx FiraSans-Light.ttf._c_m_a_p.ttx FiraSans-Light.ttf._f_p_g_m.ttx FiraSans-Light.ttf._l_o_c_a.ttx FiraSans-Light.ttf.G_P_O_S_.ttx FiraSans-Light.ttf.G_S_U_B_.ttx FiraSans-Light.ttf.GlyphOrder.ttx FiraSans-Light.ttf._h_h_e_a.ttx FiraSans-Regular.ttf._h_h_e_a.ttx FiraSans-Regular.ttf._l_o_c_a.ttx FiraSans-Regular.ttf._c_m_a_p.ttx FiraSans-Regular.ttf._m_a_x_p.ttx FiraSans-Regular.ttf._p_o_s_t.ttx FiraSans-Regular.ttf._g_a_s_p.ttx FiraSans-Regular.ttf.GlyphOrder.ttx FiraSans-Regular.ttf._g_l_y_f.ttx FiraSans-Regular.ttf._f_p_g_m.ttx FiraSans-Regular.ttf.G_P_O_S_.ttx FiraSans-Regular.ttf._h_m_t_x.ttx FiraSans-Regular.ttf._c_v_t.ttx FiraSans-Regular.ttf.G_D_E_F_.ttx FiraSans-Regular.ttf._h_e_a_d.ttx FiraSans-Regular.ttf._p_r_e_p.ttx FiraSans-Regular.ttf.G_S_U_B_.ttx FiraSans-Regular.ttf._n_a_m_e.ttx FiraSans-Regular.ttf.O_S_2f_2.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ bakery-lint.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Medium.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Italic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-MediumItalic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-LightItalic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Bold.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Light.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Regular.ttf.ttx > fontaine.txt
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+$ bakery-lint.py upstream-ttx FiraSans-Medium.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Medium.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Medium.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Italic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-MediumItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-MediumItalic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-MediumItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-LightItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-LightItalic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-LightItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Bold.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-Light.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Light.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+$ bakery-lint.py upstream-ttx FiraSans-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Regular.ttf.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/firasans/builds/build /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-BoldItalic.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Italic.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Bold.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Medium.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-MediumItalic.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Light.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Regular.ttx /home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-LightItalic.ttx
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-BoldItalic.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Italic.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Bold.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Medium.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-MediumItalic.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Light.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-Regular.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/firasans/builds/build/sources/FiraSans-LightItalic.ttx" to "/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test FiraSans-BoldItalic.ttf
+$ bakery-lint.py result FiraSans-BoldItalic.ttf
+### Test FiraSans-Italic.ttf
+$ bakery-lint.py result FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+### Test FiraSans-Bold.ttf
+$ bakery-lint.py result FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+### Test FiraSans-Medium.ttf
+$ bakery-lint.py result FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+### Test FiraSans-MediumItalic.ttf
+$ bakery-lint.py result FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+### Test FiraSans-Light.ttf
+$ bakery-lint.py result FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+### Test FiraSans-Regular.ttf
+$ bakery-lint.py result FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+### Test FiraSans-LightItalic.ttf
+$ bakery-lint.py result FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+### (5 of 6) Generate METADATA.json (genmetadata.py)
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ genmetadata.py /home/travis/build/fontdirectory/firasans/builds/build
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+{} exists
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+Designer's name from font is: Carrois Corporate & Edenspiekermann AG
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+Original size: 154780\nGzip size: 68418
+Family Name: Fira Sans
+PS Name: FiraSans-LightItalic
+Full Name: Fira Sans Light Italic
+Style: italic
+Weight: 300
+Filename: FiraSans-LightItalic.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-BoldItalic
+Full Name: Fira Sans Bold Italic
+Style: italic
+Weight: 700
+Filename: FiraSans-BoldItalic.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-Light
+Full Name: Fira Sans Light
+Style: normal
+Weight: 300
+Filename: FiraSans-Light.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-Italic
+Full Name: Fira Sans Italic
+Style: italic
+Weight: 400
+Filename: FiraSans-Italic.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-Bold
+Full Name: Fira Sans Bold
+Style: normal
+Weight: 700
+Filename: FiraSans-Bold.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-Medium
+Full Name: Fira Sans Medium
+Style: normal
+Weight: 500
+Filename: FiraSans-Medium.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-MediumItalic
+Full Name: Fira Sans Medium Italic
+Style: italic
+Weight: 500
+Filename: FiraSans-MediumItalic.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Family Name: Fira Sans
+PS Name: FiraSans-Regular
+Full Name: Fira Sans
+Style: normal
+Weight: 400
+Filename: FiraSans-Regular.ttf
+Copyright: Digitized data copyright  2012-2014, The Mozilla Foundation and Telefonica S.A.
+Error: 
+ERROR: BUILD FAILED
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+Parameter              FiraSans-LightItalic.ttf    FiraSans-BoldItalic.ttf    FiraSans-Light.ttf    FiraSans-Italic.ttf    FiraSans-Bold.ttf    FiraSans-Medium.ttf    FiraSans-MediumItalic.ttf    FiraSans-Regular.ttf    
+ymax                   1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+hhea.ascent            1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.sTypoAscender     1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+OS/2.usWinAscent       1050                        1050                       1050                  1050                   1050                 1050                   1050                         1050                    
+ymin                   -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+hhea.descent           -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.sTypoDescender    -500                        -500                       -500                  -500                   -500                 -500                   -500                         -500                    
+OS/2.usWinDescent      500                         500                        500                   500                    500                  500                    500                          500                     
+hhea.lineGap           0                           0                          0                     0                      0                    0                      0                            0                       
+OS/2.sTypoLineGap      0                           0                          0                     0                      0                    0                      0                            0                       
+hhea total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+typo total             1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+win total              1550                        1550                       1550                  1550                   1550                 1550                   1550                         1550                    
+UPM:Heights            1000:1550                   1000:1550                  1000:1550             1000:1550              1000:1550            1000:1550              1000:1550                    1000:1550               
+UPM:Heights %          155 %                       155 %                      155 %                 155 %                  155 %                155 %                  155 %                        155 %                   
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Medium Italic
+Windows String: Italic
+In GID 1 the advance width (65528) is greater than the stated maximum (1460)
+  Subsequent errors will not be reported.
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Light Italic
+Windows String: Italic
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+In GID 1 the advance width (65533) is greater than the stated maximum (1460)
+  Subsequent errors will not be reported.
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+In GID 1 the advance width (65526) is greater than the stated maximum (1460)
+  Subsequent errors will not be reported.
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Light
+Windows String: Regular
+### Optimize TTF FiraSans-MediumItalic.ttf
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+### Optimize TTF FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+### Optimize TTF FiraSans-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+In GID 1 the advance width (65530) is greater than the stated maximum (1460)
+  Subsequent errors will not be reported.
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+### Optimize TTF FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ ls -l 'FiraSans-MediumItalic.ttf'* # look at the size savings of that subset process
+FiraSans-MediumItalic.ttf.opt: 143384 bytes
+FiraSans-MediumItalic.ttf: 158472 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+### Autohint TTFs (ttfautohint) FiraSans-MediumItalic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+### Optimize TTF FiraSans-Regular.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Medium
+Windows String: Regular
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+The glyph named null is mapped to U+F0001.
+But its name indicates it should be mapped to U+2400.
+The glyph named f_i is mapped to U+F0112.
+But its name indicates it should be mapped to U+FB01.
+The glyph named f_l is mapped to U+F0113.
+But its name indicates it should be mapped to U+FB02.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf: 143384 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.autohint.ttf: 180540 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+### Subset TTFs (pyftsubset) FiraSans-MediumItalic.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+### Optimize TTF FiraSans-Bold.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+$ ls -l 'FiraSans-BoldItalic.ttf'* # look at the size savings of that subset process
+FiraSans-BoldItalic.ttf.opt: 142936 bytes
+FiraSans-BoldItalic.ttf: 158012 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) FiraSans-BoldItalic.ttf
+### Optimize TTF FiraSans-Italic.ttf
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf: 142936 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.autohint.ttf: 180852 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+### Subset TTFs (pyftsubset) FiraSans-BoldItalic.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.fix /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+Generate FiraSans-MediumItalic.latin
+$ ls -l 'FiraSans-LightItalic.ttf'* # look at the size savings of that subset process
+FiraSans-LightItalic.ttf.opt: 143340 bytes
+FiraSans-LightItalic.ttf: 158424 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+### Autohint TTFs (ttfautohint) FiraSans-LightItalic.ttf
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf: 143340 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.autohint.ttf: 179912 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+### Subset TTFs (pyftsubset) FiraSans-LightItalic.ttf
+$ ls -l 'FiraSans-Light.ttf'* # look at the size savings of that subset process
+FiraSans-Light.ttf.opt: 139636 bytes
+FiraSans-Light.ttf: 154856 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+### Autohint TTFs (ttfautohint) FiraSans-Light.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf: 139636 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.autohint.ttf: 177768 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+### Subset TTFs (pyftsubset) FiraSans-Light.ttf
+Generate FiraSans-MediumItalic.menu
+spaceWidth is    242
+nbspWidth is     242
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-MediumItalic.ttf
+Generate FiraSans-BoldItalic.latin
+### Optimize TTF FiraSans-Medium.ttf
+$ ls -l 'FiraSans-Regular.ttf'* # look at the size savings of that subset process
+FiraSans-Regular.ttf.opt: 139628 bytes
+FiraSans-Regular.ttf: 154840 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+### Autohint TTFs (ttfautohint) FiraSans-Regular.ttf
+$ ls -l 'FiraSans-Bold.ttf'* # look at the size savings of that subset process
+FiraSans-Bold.ttf.opt: 139324 bytes
+FiraSans-Bold.ttf: 154540 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+### Autohint TTFs (ttfautohint) FiraSans-Bold.ttf
+Generate FiraSans-BoldItalic.menu
+spaceWidth is    227
+nbspWidth is     227
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-BoldItalic.ttf
+Generate FiraSans-LightItalic.latin
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf: 139628 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.autohint.ttf: 176352 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+### Subset TTFs (pyftsubset) FiraSans-Regular.ttf
+Generate FiraSans-Light.latin
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf: 139324 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.autohint.ttf: 177292 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+### Subset TTFs (pyftsubset) FiraSans-Bold.ttf
+Generate FiraSans-LightItalic.menu
+spaceWidth is    276
+nbspWidth is     277
+FiraSans-LightItalic.ttf.fix made with spaceWidth and nbspWidth of 277
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-LightItalic.ttf
+$ ls -l 'FiraSans-Italic.ttf'* # look at the size savings of that subset process
+FiraSans-Italic.ttf.opt: 143536 bytes
+FiraSans-Italic.ttf: 158596 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+### Autohint TTFs (ttfautohint) FiraSans-Italic.ttf
+Generate FiraSans-Light.menu
+spaceWidth is    279
+nbspWidth is     280
+FiraSans-Light.ttf.fix made with spaceWidth and nbspWidth of 280
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Light.ttf
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf: 143536 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.autohint.ttf: 180532 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+### Subset TTFs (pyftsubset) FiraSans-Italic.ttf
+Generate FiraSans-Regular.latin
+Generate FiraSans-Bold.latin
+$ ls -l 'FiraSans-Medium.ttf'* # look at the size savings of that subset process
+FiraSans-Medium.ttf.opt: 139484 bytes
+FiraSans-Medium.ttf: 154708 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf.opt /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+### Autohint TTFs (ttfautohint) FiraSans-Medium.ttf
+Generate FiraSans-Regular.menu
+spaceWidth is    265
+nbspWidth is     265
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Regular.ttf
+Generate FiraSans-Italic.latin
+$ ls -l /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf: 139484 bytes
+/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.autohint.ttf: 176544 bytes
+$ mv /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.autohint.ttf /home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf
+### Subset TTFs (pyftsubset) FiraSans-Medium.ttf
+Generate FiraSans-Bold.menu
+spaceWidth is    237
+nbspWidth is     237
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Bold.ttf
+Generate FiraSans-Italic.menu
+spaceWidth is    259
+nbspWidth is     259
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Italic.ttf
+Generate FiraSans-Medium.latin
+Generate FiraSans-Medium.menu
+spaceWidth is    250
+nbspWidth is     250
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/firasans/builds/build/FiraSans-Medium.ttf

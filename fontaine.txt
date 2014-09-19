@@ -1,0 +1,470 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Fira Sans Medium
+    Sub family: Medium
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.107;PS 003.107;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1334
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans
+    Sub family: Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.108;PS 003.108;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1325
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans Medium
+    Sub family: Medium Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.108;PS 003.108;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1325
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans Light
+    Sub family: Light Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.108;PS 003.108;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1325
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.108;PS 003.108;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1325
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.107;PS 003.107;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1334
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans Light
+    Sub family: Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.107;PS 003.107;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1334
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+  Font:
+    Common name: Fira Sans
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Digitized data copyright © 2012-2014, The Mozilla Foundation and Telefonica S.A.
+    License: Licensed under the Open Font License, version 1.1 or later
+    License url: http://scripts.sil.org/OFL
+    Version: Version 3.107;PS 003.107;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Carrois Corporate GbR & Edenspiekermann AG
+    Vendor url: http://www.carrois.com
+    Designer: Carrois Corporate & Edenspiekermann AG
+    Designer url: http://www.carrois.com
+    Glyph count: 1334
+    Character count: 789
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-ext
+          Support level: fragmentary
+          Percent coverage: 20
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 49
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 25
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: full
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
